@@ -83,183 +83,199 @@
 // } else {
 //     alert(a=0, b=0)
 // }
-//begin1
-// let a = prompt("Введите сторону квадрата:")
-// let P = 4 * a
-// alert(P)
-// console.log(P)
 
-//begin2
-// let a = prompt("Введите сторону квадрата:")
-// let S = a**2
-// alert(S)
-// console.log(S)
+//task1
+// let a = Number(prompt("Введите число"))
+// if (a > 0) {
+//     alert(a + 1)
+// } else {
+//     alert(a)
+// }
 
-//begin3
-// let a = prompt("Введите длину прямоугольника:")
-// let b = prompt("Введите ширину прямоугольника:")
-// let S = a * b
-// alert(S)
-// console.log(S)
-// let P = (2*a)+(2*b)
-// alert(P)
-// console.log(P)
+//task2
+// let a = Number(prompt("Введите число"))
+// if (a > 0) {
+//     alert(a + 1)
+// } else {
+//     alert(a - 2)
+// }
 
-//begin4
-// let d = prompt ("Введите диаметр окружности:")
-// let n = 3.14
-// let L = n*d
-// alert(L)
-// console.log(L)
+//task3
+// let a = Number(prompt("Введите число"))
+// if (a > 0) {
+//     alert(a + 1)
+// } else if (a < 0) {
+//     alert(a - 2)
+// } else {
+//     alert(10)
+// }
 
-//begin5
-// let a = prompt("Введите длину ребра куба:")
-// let V = a**3
-// alert(V)
-// console.log(V)
-// let S = 6*(a**2)
-// alert(S)
-// console.log(S)
+//task4
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// let c = Number(prompt("Введите третье число"))
+// if (a > 0 && b > 0 && c > 0) {
+//     alert("Три числа положительные")
+// } else if ((a > 0 && b > 0 && c <= 0) || (a > 0 && b <= 0 && c > 0) || (a <= 0 && b > 0 && c > 0)) {
+//     alert("Два числа положительные")
+// } else if ((a > 0 && b <= 0 && c <= 0) || (a <= 0 && b > 0 && c <= 0) || (a <= 0 && b <= 0 && c > 0)) {
+//     alert("Одно число положительное")
+// } else {
+//     alert("Нет положительных чисел")
+// }
 
-//begin6
-// let a = prompt("Введите длину прямоугольного параллелепипеда:")
-// let b = prompt("Введите ширину прямоугольного параллелепипеда:")
-// let c = prompt("Введите высоту прямоугольного параллелепипеда:")
-// let V = a*b*c
-// alert(V)
-// console.log(V)
-// let S = 2*(a*b+b*c+a*c)
-// alert(S)
-// console.log(S)
+//task6
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// if (a > b) {
+//     alert(a)
+// } else if (a < b) {
+//     alert(b)
+// }
 
-//begin7
-// let R = prompt("Введите радиус окружности:")
-// let L = 2*n*R
-// let n = 3.14
-// alert(L)
-// console.log(L)
-// let S = n*(R**2)
-// alert(S)
-// console.log(S)
+//task7
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// if (a < b) {
+//     alert(1)
+// } else if (b < a) {
+//     alert(2)
+// }
 
-//begin8
-// let a = Number(prompt("Введите первое число:"))
-// let b = Number(prompt("Введите второе число:"))
-// let Sa = (a+b)/2
-// alert(Sa)
-// console.log(Sa)
+//task8
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// if (a > b) {
+//     alert(a + " " + b)
+// } else if (a < b) {
+//     alert(b + " " + a)
+// }
 
-//begin9
-// let a = prompt("Введите первое число:")
-// let b = prompt("Введите второе число:")
-// let Sg = (a*b)**0.5
-// alert(Sg)
-// console.log(Sg)
+//task9
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// if (a > b){
+//     a -= b
+//     b += a
+//     a = b - a
+//     alert(a)
+//     alert(b)
+// } else {
+//     alert(a)
+//     alert(b)
+// }
 
-//begin10
-// let a = Number(prompt("Введите первое ненулевое число:"))
-// let b = Number(prompt("Введите второе ненулевое число:"))
-// let ak = a**2
-// let bk = b**2
-// let Summ = ak+bk
-// alert(Summ)
-// console.log(Summ)
-// let Raz = ak-bk
-// alert(Raz)
-// console.log(Raz)
-// let Pr = ak*bk
-// alert(Pr)
-// console.log(Pr)
-// let Ch = ak/bk
-// alert(Ch)
-// console.log(Ch)
+//task10
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// if (a != b) {
+//     a = a + b
+//     b = a
+//     alert(a)
+//     alert(b)
+// } else {
+//     a = 0
+//     b = 0
+//     alert(a)
+//     alert(b)
+// }
 
-//begin11
-// let a = Number(prompt("Введите первое ненулевое число:"))
-// let b = Number(prompt("Введите второе ненулевое число:"))
-// let ap = Math.abs(a)
-// let bp = Math.abs(b)
-// let Summ = ap+bp
-// alert(Summ)
-// console.log(Summ)
-// let Raz = ap-bp
-// alert(Raz)
-// console.log(Raz)
-// let Pr = ap*bp
-// alert(Pr)
-// console.log(Pr)
-// let Ch = ap/bp
-// alert(Ch)
-// console.log(Ch)
+//task11
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// if (a != b) {
+//     if (a > b) {
+//         b = a
+//         alert(a)
+//         alert(b)
+//     } else {
+//         a = b
+//         alert(a)
+//         alert(b)
+//     }
+// } else {
+//     a = 0
+//     b = 0
+//     alert(a)
+//     alert(b)
+// }
 
-//begin12
-// let a = Number(prompt("Введите длину первого катета:"))
-// let b = Number(prompt("Введите длину второго катета:"))
-// let c = (a**2+b**2)**0.5
-// alert(c)
-// console.log(c)
-// let P = a+b+c
-// alert(P)
-// console.log(P)
+//task12
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// let c = Number(prompt("Введите третье число"))
+// if ((a <= b && b <= c) || (a <= c && c <= b)) {
+//     alert(a)
+// } else if ((b <= a && a <= c) || (b <= c && c <= a)) {
+//     alert(b)
+// } else {
+//     alert(c)
+// }
 
-//begin13
-// let R1 = prompt("Введите радиус первого круга:")
-// let R2 = prompt("Введите радиус второго круга:")
-// let n = 3.14
-// let S1 = n*(R1**2)
-// alert(S1)
-// console.log(S1)
-// let S2 = n*(R2**2)
-// alert(S2)
-// console.log(S2)
-// let S3 = S1-S2
-// alert(S3)
-// console.log(S3)
+//task13
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// let c = Number(prompt("Введите третье число"))
+// if ((a < b  && a > c && b > c) || (a > b && a < c && c > b)) {
+//     alert(a)
+// } else if ((b > a && b < c && c > a) || (b > c && b < a && a > c)) {
+//     alert(b)
+// } else {
+//     alert(c)
+// }
 
-//begin14
-// let L = prompt("Введите длину окружности:")
-// let n = 3.14
-// let R = L/(2*n)
-// alert(R)
-// console.log(R)
-// let S = n*(R**2)
-// alert(S)
-// console.log(S)
+//task14
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// let c = Number(prompt("Введите третье число"))
+// if (a > b && b > c){
+//     alert(c)
+//     alert(a)
+// } else if (a > c && c > b) {
+//     alert(b)
+//     alert(a)
+// } else if (b > a && a > c) {
+//     alert(c)
+//     alert(b)
+// } else if (b > c && c > a) {
+//     alert(a)
+//     alert(b)
+// } else if (c > a && a > b) {
+//     alert(b)
+//     alert(c)
+// } else {
+//     alert(a)
+//     alert(c)
+// }
 
-//begin15
-// let S = prompt("Введите площадь круга:")
-// let n = 3.14
-// let D = 2*(S/n)**0.5
-// alert(D)
-// console.log(D)
-// let L = n*D
-// alert(L)
-// console.log(L)
+//task15
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// let c = Number(prompt("Введите третье число"))
+// if (a > b && b > c){
+//     alert(a+b)
+// } else if (a > c && c > b) {
+//     alert(a+c)
+// } else if (b > a && a > c) {
+//     alert(c)
+// } else if (b > c && c > a) {
+//     alert(b+c)
+// } else if (c > a && a > b) {
+//     alert(c+a)
+// } else {
+//     alert(b+c)
+// }
 
-//begin25
-// let x = prompt("Введите значение х:")
-// let y = 3*(x**6)-6*(x**2)-7
-// alert(y)
-// console.log(y)
-
-//begin26
-// let x = prompt("Введите значение х:")
-// let y = 4*((x-3)**6)-7*((x-3)**3)+2
-// alert(y)
-// console.log(y)
-
-//begin27
-// let A = prompt("Введите число A:")
-// let A2 = A**2
-// let A4 = A**4
-// let A8 = A**8
-// alert(`A2 = ${A2}; A4 = ${A4}; A8 = ${A8}`)
-
-//begin28
-let A = prompt("Введите число A:")
-let A2 = A**2
-let A3 = A**3
-let A15 = A**15
-let A10 = A**10
-let A5 = A**5
-alert(`A2 = ${A2}; A3 = ${A3}; A5 = ${A5}; A10 = ${A10}; A15 = ${A15}`)
+//task16
+// let a = Number(prompt("Введите первое число"))
+// let b = Number(prompt("Введите второе число"))
+// let c = Number(prompt("Введите третье число"))
+// if (a < b && b < c) {
+//     alert(2*a)
+//     alert(2*b)
+//     alert(2*c)
+// } else {
+//     alert(-a)
+//     alert(-b)
+//     alert(-c)
+// }
